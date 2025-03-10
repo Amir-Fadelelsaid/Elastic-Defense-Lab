@@ -48,6 +48,22 @@ Elastic-Defense-Lab is a **cybersecurity home lab** designed to simulate real-wo
 ✅ Learn to configure **endpoint security agents**
 ✅ Practice **SOC analyst workflows** with **alert analysis & triage**
 
+## 📸 Screenshots
+### 1️⃣ AWS EC2 Windows Instance
+![AWS Windows Instance](screenshots/aws-instance.png)
+
+### 2️⃣ Elastic SIEM Dashboard
+![Elastic SIEM](screenshots/elastic-dashboard.png)
+
+### 3️⃣ Malware Detection Alert
+![Malware Alert](screenshots/malware-alert.png)
+
+### 4️⃣ SOC Analyst View (Alerts Tab)
+![SOC Analyst Alerts](screenshots/soc-alerts.png)
+
+### 5️⃣ Event Timeline View
+![Event Timeline](screenshots/event-timeline.png)
+
 ## 🔮 Future Enhancements
 - 🛠 **Automate deployment** using Terraform
 - 🔍 **Expand to Linux/macOS agents** for cross-platform monitoring
