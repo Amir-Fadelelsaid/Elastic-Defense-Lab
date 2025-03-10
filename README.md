@@ -43,26 +43,43 @@ Elastic-Defense-Lab is a **cybersecurity home lab** designed to simulate real-wo
 4. Review the alert in **Elastic SIEM** under the **Alerts tab**.
 
 ## 📊 Use Cases & Learning Outcomes
-✅ Understand **SIEM architecture** and log ingestion
-✅ Gain hands-on experience in **malware detection & response**
-✅ Learn to configure **endpoint security agents**
-✅ Practice **SOC analyst workflows** with **alert analysis & triage**
+✅ Understand **SIEM architecture** and log ingestion  
+✅ Gain hands-on experience in **malware detection & response**  
+✅ Learn to configure **endpoint security agents**  
+✅ Practice **SOC analyst workflows** with **alert analysis & triage**  
 
-## 📸 Screenshots
+## 📸 Screenshots & Explanations
 ### 1️⃣ AWS EC2 Windows Instance
+This screenshot shows the **AWS EC2 dashboard** with a **Windows instance running**. The instance is used to simulate an enterprise endpoint that is monitored for security threats.
 ![AWS Windows Instance](screenshots/aws-instance.png)
 
 ### 2️⃣ Elastic SIEM Dashboard
+This screenshot displays the **Elastic SIEM dashboard**, where logs from the monitored Windows instance are collected, analyzed, and visualized. This view helps security analysts identify suspicious activity in real time.
 ![Elastic SIEM](screenshots/elastic-dashboard.png)
 
 ### 3️⃣ Malware Detection Alert
+Here, an alert is triggered in Elastic SIEM due to **malware activity** detected on the Windows instance. The alert provides details on the type of threat, its severity, and the associated system activity.
 ![Malware Alert](screenshots/malware-alert.png)
 
 ### 4️⃣ SOC Analyst View (Alerts Tab)
+This screenshot shows the **SOC analyst workflow**, where active security alerts are listed and categorized. Analysts use this view to investigate and respond to potential threats.
 ![SOC Analyst Alerts](screenshots/soc-alerts.png)
 
 ### 5️⃣ Event Timeline View
+This screenshot highlights the **detailed event timeline**, which allows analysts to track the sequence of security events, identify attack patterns, and correlate different logs for deeper investigation.
 ![Event Timeline](screenshots/event-timeline.png)
+
+### 6️⃣ Malware Prevention Alert Details
+This screenshot provides a deeper look into a **Malware Prevention Alert**, displaying key metadata such as risk scores, detection rules, and the associated policy that triggered the alert.
+![Malware Prevention Alert](screenshots/malware-prevention.png)
+
+### 7️⃣ Endpoint Security Rule Details
+This screenshot showcases **Elastic Defend’s security rules**, which define what constitutes malicious behavior. It provides insights into how rules are applied and severity levels are determined.
+![Endpoint Security Rule](screenshots/endpoint-security-rule.png)
+
+### 8️⃣ AWS EC2 Instance Monitoring
+This screenshot captures the **AWS CloudWatch monitoring dashboard** for the Windows EC2 instance. It shows system performance metrics such as CPU usage, network activity, and security-related insights.
+![AWS EC2 Monitoring](screenshots/aws-ec2-monitoring.png)
 
 ## 🔮 Future Enhancements
 - 🛠 **Automate deployment** using Terraform
