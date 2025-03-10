@@ -25,16 +25,14 @@ Elastic-Defense-Lab is a **cybersecurity home lab** designed to simulate real-wo
 4. Configure security groups to allow **RDP access (port 3389)**.
 5. Connect to the instance using **Remote Desktop Protocol (RDP)**.
 
-📸 **AWS EC2 Resources Page:** [View Screenshot](https://drive.google.com/file/d/1g1P31RGXx-OKUkWze8xlT8v1uODjenaL/view?usp=sharing)
-
-📸 **AWS EC2 Instance Monitoring:** [View Screenshot](https://drive.google.com/file/d/14IQWTfCx8gi2zyeRC-juscq9BKAlk2iB/view?usp=sharing)
+📸 **User Screenshot (Elastic SIEM User Management):** [View Screenshot](https://drive.google.com/file/d/1Kk5yyJEJ_DxJ36y_9y-SC74H1_NAlKRD/view?usp=sharing)
 
 ### **2️⃣ Set Up Elastic SIEM**
 1. Sign up for an [Elastic SIEM Free Trial](https://www.elastic.co/security-labs/elastic-siem).
 2. Deploy an **Elastic Cloud instance**.
 3. Enable **security analytics** and configure log ingestion.
 
-📸 **Elastic SIEM Users Dashboard:** [View Screenshot](https://drive.google.com/file/d/1Kk5yyJEJ_DxJ36y_9y-SC74H1_NAlKRD/view?usp=sharing)
+📸 **Hosts View in Elastic SIEM:** [View Screenshot](https://drive.google.com/file/d/1GQNUSHXbciwXyfIOuhZHj5qJTNDsGRI9/view?usp=sharing)
 
 ### **3️⃣ Install & Configure Elastic Defend Agent**
 1. In **Elastic SIEM**, go to **"Fleet"** → **"Agents"**.
@@ -42,7 +40,7 @@ Elastic-Defense-Lab is a **cybersecurity home lab** designed to simulate real-wo
 3. Run the script in PowerShell on the Windows VM.
 4. Verify that logs are being ingested in **Elastic SIEM**.
 
-📸 **Hosts View in Elastic SIEM:** [View Screenshot](https://drive.google.com/file/d/1GQNUSHXbciwXyfIOuhZHj5qJTNDsGRI9/view?usp=sharing)
+📸 **Untitled Timeline in Elastic SIEM:** [View Screenshot](https://drive.google.com/file/d/1nDvQ1HoXrBRKuE0BsTSQ87HcYjm4hOwx/view?usp=sharing)
 
 ### **4️⃣ Simulate Malware Detection**
 1. Download the [EICAR test file](https://www.eicar.org/?page_id=3950).
@@ -50,24 +48,21 @@ Elastic-Defense-Lab is a **cybersecurity home lab** designed to simulate real-wo
 3. Elastic Defend should detect and quarantine the file.
 4. Review the alert in **Elastic SIEM** under the **Alerts tab**.
 
-📸 **Event Timeline in Elastic SIEM:** [View Screenshot](https://drive.google.com/file/d/1nDvQ1HoXrBRKuE0BsTSQ87HcYjm4hOwx/view?usp=sharing)
+📸 **Event Details in Elastic SIEM:** [View Screenshot](https://drive.google.com/file/d/1dR21v0HYtuD5mQ5DWWBo9_lyF36v2inf/view?usp=sharing)
 
-📸 **SOC Analyst View - Event Details:** [View Screenshot](https://drive.google.com/file/d/1dR21v0HYtuD5mQ5DWWBo9_lyF36v2inf/view?usp=sharing)
+📸 **Alerts with Malware Prevention Alert Highlighted:** [View Screenshot](https://drive.google.com/file/d/179LcDVCNNbmTMTEfYh9yhzsQXrHj5XbQ/view?usp=sharing)
+
+📸 **Endpoint Security Rule for Elastic Defend:** [View Screenshot](https://drive.google.com/file/d/15FSrPMJeq8mO9OeuS0rzIJWSZfkyD3ar/view?usp=sharing)
+
+📸 **AWS EC2 Instance Monitoring:** [View Screenshot](https://drive.google.com/file/d/14IQWTfCx8gi2zyeRC-juscq9BKAlk2iB/view?usp=sharing)
+
+📸 **AWS EC2 Resources Page:** [View Screenshot](https://drive.google.com/file/d/1g1P31RGXx-OKUkWze8xlT8v1uODjenaL/view?usp=sharing)
 
 ## 📊 Use Cases & Learning Outcomes
 ✅ Understand **SIEM architecture** and log ingestion  
 ✅ Gain hands-on experience in **malware detection & response**  
 ✅ Learn to configure **endpoint security agents**  
 ✅ Practice **SOC analyst workflows** with **alert analysis & triage**  
-
-## 📸 Screenshots & Explanations
-📸 **Alerts with Malware Prevention Alert Highlighted:** [View Screenshot](https://drive.google.com/file/d/179LcDVCNNbmTMTEfYh9yhzsQXrHj5XbQ/view?usp=sharing)
-
-📸 **Malware Prevention Alert Details:** [View Screenshot](https://drive.google.com/file/d/1g1P31RGXx-OKUkWze8xlT8v1uODjenaL/view?usp=sharing)
-
-📸 **Endpoint Security Rule for Elastic Defend:** [View Screenshot](https://drive.google.com/file/d/15FSrPMJeq8mO9OeuS0rzIJWSZfkyD3ar/view?usp=sharing)
-
-📸 **Detailed Event Log View:** [View Screenshot](https://drive.google.com/file/d/1GjW0JTSb6C_lSS6BbVzjk6E265J7AUbp/view?usp=sharing)
 
 ## 🔮 Future Enhancements
 - 🛠 **Automate deployment** using Terraform
