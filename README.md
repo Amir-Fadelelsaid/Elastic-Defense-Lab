@@ -71,4 +71,4 @@ Elastic-Defense-Lab is a **cybersecurity home lab** designed to simulate real-wo
 - 🔒 **Integrate Splunk or other SIEM tools** for comparative analysis
 
 ## 🏆 Acknowledgments
-Built as a hands-on cybersecurity project to simulate **real-world SOC workflows** and gain **practical experience** in threat detection & incident response. Inspired by **Elastic Security Labs** and AWS best practices.
+Built a hands-on cybersecurity project to simulate **real-world SOC workflows** and gain **practical experience** in threat detection & incident response. Inspired by **Elastic Security Labs** and AWS best practices.
