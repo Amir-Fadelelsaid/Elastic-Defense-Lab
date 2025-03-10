@@ -25,10 +25,14 @@ Elastic-Defense-Lab is a **cybersecurity home lab** designed to simulate real-wo
 4. Configure security groups to allow **RDP access (port 3389)**.
 5. Connect to the instance using **Remote Desktop Protocol (RDP)**.
 
+📸 **AWS EC2 Windows Instance:** [View Screenshot](https://drive.google.com/file/d/1Kk5yyJEJ_DxJ36y_9y-SC74H1_NAlKRD/view?usp=sharing)
+
 ### **2️⃣ Set Up Elastic SIEM**
 1. Sign up for an [Elastic SIEM Free Trial](https://www.elastic.co/security-labs/elastic-siem).
 2. Deploy an **Elastic Cloud instance**.
 3. Enable **security analytics** and configure log ingestion.
+
+📸 **Elastic SIEM Users Dashboard:** [View Screenshot](https://drive.google.com/file/d/1GQNUSHXbciwXyfIOuhZHj5qJTNDsGRI9/view?usp=sharing)
 
 ### **3️⃣ Install & Configure Elastic Defend Agent**
 1. In **Elastic SIEM**, go to **"Fleet"** → **"Agents"**.
@@ -36,11 +40,15 @@ Elastic-Defense-Lab is a **cybersecurity home lab** designed to simulate real-wo
 3. Run the script in PowerShell on the Windows VM.
 4. Verify that logs are being ingested in **Elastic SIEM**.
 
+📸 **Hosts View in Elastic SIEM:** [View Screenshot](https://drive.google.com/file/d/1nDvQ1HoXrBRKuE0BsTSQ87HcYjm4hOwx/view?usp=sharing)
+
 ### **4️⃣ Simulate Malware Detection**
 1. Download the [EICAR test file](https://www.eicar.org/?page_id=3950).
 2. Attempt to execute it on the Windows VM.
 3. Elastic Defend should detect and quarantine the file.
 4. Review the alert in **Elastic SIEM** under the **Alerts tab**.
+
+📸 **Event Timeline in Elastic SIEM:** [View Screenshot](https://drive.google.com/file/d/1dR21v0HYtuD5mQ5DWWBo9_lyF36v2inf/view?usp=sharing)
 
 ## 📊 Use Cases & Learning Outcomes
 ✅ Understand **SIEM architecture** and log ingestion  
@@ -49,37 +57,17 @@ Elastic-Defense-Lab is a **cybersecurity home lab** designed to simulate real-wo
 ✅ Practice **SOC analyst workflows** with **alert analysis & triage**  
 
 ## 📸 Screenshots & Explanations
-### 1️⃣ AWS EC2 Windows Instance
-This screenshot shows the **AWS EC2 dashboard** with a **Windows instance running**. The instance is used to simulate an enterprise endpoint that is monitored for security threats.
-![AWS Windows Instance](screenshots/aws-instance.png)
+📸 **SOC Analyst View - Event Details:** [View Screenshot](https://drive.google.com/file/d/179LcDVCNNbmTMTEfYh9yhzsQXrHj5XbQ/view?usp=sharing)
 
-### 2️⃣ Elastic SIEM Dashboard
-This screenshot displays the **Elastic SIEM dashboard**, where logs from the monitored Windows instance are collected, analyzed, and visualized. This view helps security analysts identify suspicious activity in real time.
-![Elastic SIEM](screenshots/elastic-dashboard.png)
+📸 **Alerts with Malware Prevention Alert Highlighted:** [View Screenshot](https://drive.google.com/file/d/1g1P31RGXx-OKUkWze8xlT8v1uODjenaL/view?usp=sharing)
 
-### 3️⃣ Malware Detection Alert
-Here, an alert is triggered in Elastic SIEM due to **malware activity** detected on the Windows instance. The alert provides details on the type of threat, its severity, and the associated system activity.
-![Malware Alert](screenshots/malware-alert.png)
+📸 **Malware Prevention Alert Details:** [View Screenshot](https://drive.google.com/file/d/15FSrPMJeq8mO9OeuS0rzIJWSZfkyD3ar/view?usp=sharing)
 
-### 4️⃣ SOC Analyst View (Alerts Tab)
-This screenshot shows the **SOC analyst workflow**, where active security alerts are listed and categorized. Analysts use this view to investigate and respond to potential threats.
-![SOC Analyst Alerts](screenshots/soc-alerts.png)
+📸 **Endpoint Security Rule for Elastic Defend:** [View Screenshot](https://drive.google.com/file/d/1GjW0JTSb6C_lSS6BbVzjk6E265J7AUbp/view?usp=sharing)
 
-### 5️⃣ Event Timeline View
-This screenshot highlights the **detailed event timeline**, which allows analysts to track the sequence of security events, identify attack patterns, and correlate different logs for deeper investigation.
-![Event Timeline](screenshots/event-timeline.png)
+📸 **AWS EC2 Instance Monitoring:** [View Screenshot](https://drive.google.com/file/d/14IQWTfCx8gi2zyeRC-juscq9BKAlk2iB/view?usp=sharing)
 
-### 6️⃣ Malware Prevention Alert Details
-This screenshot provides a deeper look into a **Malware Prevention Alert**, displaying key metadata such as risk scores, detection rules, and the associated policy that triggered the alert.
-![Malware Prevention Alert](screenshots/malware-prevention.png)
-
-### 7️⃣ Endpoint Security Rule Details
-This screenshot showcases **Elastic Defend’s security rules**, which define what constitutes malicious behavior. It provides insights into how rules are applied and severity levels are determined.
-![Endpoint Security Rule](screenshots/endpoint-security-rule.png)
-
-### 8️⃣ AWS EC2 Instance Monitoring
-This screenshot captures the **AWS CloudWatch monitoring dashboard** for the Windows EC2 instance. It shows system performance metrics such as CPU usage, network activity, and security-related insights.
-![AWS EC2 Monitoring](screenshots/aws-ec2-monitoring.png)
+📸 **AWS EC2 Resources Page:** [View Screenshot](https://drive.google.com/file/d/1g1P31RGXx-OKUkWze8xlT8v1uODjenaL/view?usp=sharing)
 
 ## 🔮 Future Enhancements
 - 🛠 **Automate deployment** using Terraform
